@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "encode, decode and hashing tool"
+version = "1.0.0"
+description = "This is a tool which can be used to encode, decode or generate hashes of a given input."
+authors = ["Anu1996rag <anuragpatils1996@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cryptography = "^41.0.3"
+mkdocs = "^1.5.2"
+mkdocstrings = {extras = ["python"], version = "^0.22.0"}
+mkdocs-material = "^9.1.21"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.284"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

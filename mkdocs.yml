@@ -1,0 +1,12 @@
+site_name: Encode, Decode, Hashing Docs
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Calculation Docs: index.md
+  - Tutorial Docs: tutorials.md
+
